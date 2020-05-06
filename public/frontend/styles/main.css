@@ -1,0 +1,490 @@
+:root {
+  --primaryColor: #071C4D;
+  --button: #FF9E53;
+  --btnHover: #FF811F;
+  --secondFont: 'Playfair Display', serif;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Assistant', sans-serif;
+  color: var(--primaryColor);
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--primaryColor);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: 600;
+  color: var(--primaryColor) !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: var(--primaryColor);
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #0c2b74;
+  color: #fff;
+}
+
+header {
+  padding: 180px 0 165px;
+  background-size: cover;
+  background-image: url("../images/banner.png");
+  margin-top: -70px;
+}
+
+header h1,
+header p {
+  color: #fff;
+  font-weight: 300;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: var(--button);
+  color: #fff;
+}
+
+header .btn-get-started:hover {
+  background-color: var(--btnHover);
+  color: #fff;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+
+.stats-detail h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.stats-detail p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  margin-top: -50px;
+  margin-bottom: -230px;
+  background-color: #051334;
+}
+
+.section-popular .popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .popular-heading h2,
+.section-popular .popular-heading p {
+  color: #fff;
+}
+
+.section-popular .popular-heading h2 {
+  font-weight: bold;
+  font-family: var(--secondFont);
+  font-size: 40px;
+}
+
+.section-popular .popular-heading p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.section-popular-content .popular-travel .card-travel {
+  background-size: cover;
+  background-color: #ddd;
+  color: #fff;
+  padding: 30px;
+  min-height: 380px;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .popular-travel .card-travel .travel-country {
+  font-size: 18px;
+  color: #fff;
+}
+
+.section-popular-content .popular-travel .card-travel .travel-location {
+  font-size: 26px;
+  color: #fff;
+}
+
+.section-popular-content .popular-travel .card-travel .travel-button .btn-travel-details {
+  background-color: var(--button);
+  color: #fff;
+}
+
+.section-popular-content .popular-travel .card-travel .travel-button .btn-travel-details:hover {
+  background-color: var(--btnHover);
+  color: #fff;
+}
+
+.section-network {
+  padding-top: 230px;
+  margin-top: -170px;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+
+.section-network h2 {
+  font-family: var(--secondFont);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-network p {
+  font-size: 18px;
+}
+
+.section-network img {
+  max-width: 100%;
+}
+
+.section-testimonial-header {
+  min-height: 506px;
+  padding-top: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
+}
+
+.section-testimonial-header h2 {
+  font-family: var(--secondFont);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-testimonial-header p {
+  font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 380px;
+}
+
+.section-testimonial-content .card-testimonial h5 {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+  font-weight: 200;
+  font-size: 26px;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonial-content .card-testimonial p {
+  font-size: 22px;
+  font-weight: lighter;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .btn-get-started {
+  background-color: var(--button);
+  color: #fff;
+}
+
+.section-testimonial-content .btn-get-started:hover {
+  background-color: var(--btnHover);
+  color: #fff;
+}
+
+.section-testimonial-content .btn-need-help {
+  background-color: #F2F2F2;
+  color: #C3C3C3;
+}
+
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #FAF8F8;
+  color: #C3C3C3;
+}
+
+.section-footer h5 {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.section-footer a {
+  color: var(--primaryColor);
+  font-size: 18px;
+}
+
+.section-header-details {
+  min-height: 310px;
+  background-color: #E4E6EB;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.section-details-content .breadcrumb li {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-details-content .breadcrumb .breadcrumb-item.active {
+  color: var(--primaryColor);
+  font-weight: 400;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+
+.section-details-content .card-details h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #B1B1B1;
+  font-weight: lighter;
+}
+
+.section-details-content .card-details .features {
+  margin-top: 25px;
+}
+
+.section-details-content .card-details .features h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.section-details-content .card-details .features p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .description {
+  float: left;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.section-details-content .card-details .features-img {
+  float: left;
+  width: 45px;
+  height: 45px;
+}
+
+.section-details-content .card-details .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .card-details .gallery .xzoom-container .xzoom {
+  max-width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .card-details .gallery .xzoom-container .xactive {
+  border: 4px solid #1ABC9C;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .card-details .trip-information th,
+.section-details-content .card-details .trip-information td {
+  font-weight: lighter;
+}
+
+.section-details-content .card-details .trip-information td {
+  color: #B1B1B1;
+}
+
+.section-details-content .card-details .trip-information .text-blue {
+  color: var(--primaryColor);
+  font-weight: bold;
+}
+
+.section-details-content .card-details .trip-information .text-orange {
+  color: var(--button);
+  font-weight: bold;
+}
+
+.section-details-content .card-details .payment-instructions {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.section-details-content .card-details .bank .bank-item h3 {
+  color: var(--primaryColor);
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .bank .bank-item p {
+  color: var(--primaryColor);
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.section-details-content .card-details .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .card-details .bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .card-details .attendee .table thead {
+  font-weight: lighter;
+}
+
+.section-details-content .card-details .attendee .table td {
+  border-top: none;
+}
+
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.section-details-content .card-details .gj-datepicker .datepicker {
+  border-right: 0;
+}
+
+.section-details-content .card-details .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.section-details-content .card-details .btn-add-now {
+  background-color: var(--primaryColor);
+  color: #fff;
+}
+
+.section-details-content .card-details .btn-add-now:hover {
+  background-color: #1B346E;
+  color: #fff;
+}
+
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.section-details-content .btn-cancel {
+  color: #BFBFBF;
+  font-weight: lighter;
+}
+
+.section-details-content .members .member-img {
+  width: 40px;
+  height: 40px;
+}
+
+.section-details-content .join-now {
+  margin-top: -16px;
+}
+
+.section-details-content .join-now .btn-join-now {
+  background-color: var(--button);
+  color: #fff;
+  border-radius: 0;
+}
+
+.section-details-content .join-now .btn-join-now:hover {
+  background-color: var(--btnHover);
+  color: #fff;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.section-success p {
+  font-weight: 300;
+  color: #b1b1b1;
+  font-size: 18px;
+}
+
+.section-success .btn-home-page {
+  background-color: var(--primaryColor);
+  color: #fff;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #1B346E;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
