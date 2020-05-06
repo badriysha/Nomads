@@ -174,12 +174,12 @@
                         </div>
                     </div>
                     <div class="join-now">
-                        <a href="{{ url('success.html') }}" class="btn btn-join-now btn-block mt-3 py-2">
+                        <a href="{{ route('checkout-success') }}" class="btn btn-join-now btn-block mt-3 py-2">
                             I Have Made Payment
                         </a>
                     </div>
                     <div class="text-center mt-3">
-                        <a href="{{ url('detail.html') }}" class="text-muted btn-cancel">
+                        <a href="{{ route('detail') }}" class="text-muted btn-cancel">
                             Cancel Booking
                         </a>
                     </div>
