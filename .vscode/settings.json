@@ -3,5 +3,14 @@
     "oneDarkPro.editorTheme": "Onedark Pro",
     "editor.fontSize": 17,
     "editor.fontWeight": "300",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "files.associations": {
+
+    },
+    "editor.codeActionsOnSave": null,
+    "editor.fontLigatures": null,
+    "terminal.integrated.shellArgs.windows": null,
+    "terminal.integrated.automationShell.linux": "",
+    "terminal.integrated.fontWeightBold": "normal",
+    "terminal.integrated.shell.osx": ""
 }
