@@ -30,11 +30,12 @@
                             <td>{{ $item->id }}</td>
                             <td>{{ $item->travel_package->title }}</td>
                             <td>
-                            <img src="{{ Storage::url($item->image) }}" alt="" style="width: 150px" class="image-thumbnail">    
+                                <img src="{{ Storage::url($item->image) }}" style="width: 150px" class="img-thumbnail"> 
                             </td>
                             <td>
                                 <a href="{{ route('gallery.edit', $item->id) }}" class="btn btn-info">
-                                <i class="fas fa-pencil-alt"></i></a>
+                                    <i class="fas fa-pencil-alt"></i>
+                                </a>
                                 <form action="{{ route('gallery.destroy', $item->id) }}" method="POST" class="d-inline">
                                 @csrf
                                 @method('delete')
@@ -46,12 +47,11 @@
                         </tr> 
                         @empty
                             <tr>
-                                <td colspan="7" class="text-center">
+                                <td colspan="4" class="text-center">
                                     Data Kosong
                                 </td>
                             </tr>
                         @endforelse
-                        
                     </tbody>
                 </table>
             </div>

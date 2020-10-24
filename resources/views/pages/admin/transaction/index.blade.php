@@ -7,9 +7,6 @@
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
         <h1 class="h3 mb-0 text-gray-800">Transaksi</h1>
-        <a href="{{ route('transaction.create') }}" class="btn btn-sm btn-primary shadow-sm">
-            <i class="fas fa-plus fa-sm text-white-50"></i>Tambah Transaksi
-        </a>
     </div>
 
     <div class="row">
@@ -32,9 +29,9 @@
                         <tr>
                             <td>{{ $item->id }}</td>
                             <td>{{ $item->travel_package->title }}</td>
-                            <td>{{ $item->user->name }}</td>
-                            <td>{{ $item->additional_visa }}</td>
-                            <td>{{ $item->transaction_total }}</td>
+                            <td>{{ $item->travel_package->location }}</td>
+                            <td>{{ $item->travel_package->type }}</td>
+                            <td>{{ $item->travel_package->departure_date }}</td>
                             <td>{{ $item->transaction_status }}</td>
                             <td>
                                 <a href="{{ route('transaction.show', $item->id) }}" class="btn btn-primary">

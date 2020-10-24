@@ -1,12 +1,10 @@
 {
     "oneDarkPro.vivid": true,
     "oneDarkPro.editorTheme": "Onedark Pro",
-    "editor.fontSize": 17,
+    "editor.fontSize": 14,
     "editor.fontWeight": "300",
     "editor.formatOnSave": true,
-    "files.associations": {
-
-    },
+    "files.associations": {},
     "editor.codeActionsOnSave": null,
     "editor.fontLigatures": null,
     "terminal.integrated.shellArgs.windows": null,

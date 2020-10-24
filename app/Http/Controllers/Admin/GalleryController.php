@@ -6,7 +6,7 @@ use App\Http\Requests\Admin\GalleryRequest;
 use App\Http\Controllers\Controller;
 use App\Gallery;
 use App\TravelPackage;
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class GalleryController extends Controller
 {
@@ -19,9 +19,11 @@ class GalleryController extends Controller
     {
         $items = Gallery::with(['travel_package'])->get();
 
+        // dd($items);
         return view('pages.admin.gallery.index', [
             'items' => $items
         ]);
+        
     }
 
     /**
@@ -47,8 +49,7 @@ class GalleryController extends Controller
     {
         $data = $request->all();
         $data['image'] = $request->file('image')->store(
-            'assets/gallery',
-            'public'
+            'assets/gallery', 'public'
         );
 
         Gallery::create($data);
@@ -93,8 +94,7 @@ class GalleryController extends Controller
     {
         $data = $request->all();
         $data['image'] = $request->file('image')->store(
-            'assets/gallery',
-            'public'
+            'assets/gallery', 'public'
         );
 
         $item = Gallery::findOrFail($id);

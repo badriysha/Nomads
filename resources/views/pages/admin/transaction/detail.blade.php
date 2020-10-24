@@ -7,9 +7,6 @@
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
         <h1 class="h3 mb-0 text-gray-800">Detail Transaksi</h1>
-        <a href="{{ route('transaction.create') }}" class="btn btn-sm btn-primary shadow-sm">
-            <i class="fas fa-plus fa-sm text-white-50"></i>Edit Transaksi
-        </a>
     </div>
 
     <div class="row">
@@ -22,19 +19,19 @@
                     </tr>
                     <tr>
                         <th>Paket Travel</th>
-                        <td>{{ $item->travel_package->id }}</td>
+                        <td>{{ $item->travel_package->title }}</td>
                     </tr>
                     <tr>
                         <th>Pembeli</th>
-                        <td>{{ $item->user->id }}</td>
+                        <td>{{ $item->user->name }}</td>
                     </tr>
                     <tr>
                         <th>Additional VISA</th>
-                        <td>$0{{ $item->additional_visa }}</td>
+                        <td>${{ $item->additional_visa }} USD</td>
                     </tr>
                     <tr>
                         <th>Total Transaksi</th>
-                        <td>{{ $item->transaction_total }}</td>
+                        <td>${{ $item->transaction_total }} USD</td>
                     </tr>
                     <tr>
                         <th>Status Transaksi</th>
