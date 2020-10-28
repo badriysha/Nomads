@@ -1,13 +1,13 @@
 :root {
-    --primaryColor: #071C4D;
-    --button: #FF9E53;
-    --btnHover: #FF811F;
-    --secondFont: 'Playfair Display', serif;
+    --primaryColor: #071c4d;
+    --button: #ff9e53;
+    --btnHover: #ff811f;
+    --secondFont: "Playfair Display", serif;
 }
 
 body {
     background-color: #fff;
-    font-family: 'Assistant', sans-serif;
+    font-family: "Assistant", sans-serif;
     color: var(--primaryColor);
 }
 
@@ -54,7 +54,7 @@ body {
 header {
     padding: 180px 0 165px;
     background-size: cover;
-    background-image: url('../images/banner.png');
+    background-image: url("../images/banner.png");
     margin-top: -70px;
 
     h1,
@@ -64,7 +64,7 @@ header {
     }
 
     h1 {
-        font-family: 'Playfair Display', serif;
+        font-family: "Playfair Display", serif;
         font-weight: 600;
         font-size: 50px;
     }
@@ -132,7 +132,6 @@ header {
         }
     }
 }
-
 
 // Popular content
 .section-popular-content {
@@ -230,7 +229,6 @@ header {
             font-weight: 200;
             font-size: 26px;
             color: #6e6e6e;
-
         }
 
         hr {
@@ -256,12 +254,12 @@ header {
     }
 
     .btn-need-help {
-        background-color: #F2F2F2;
-        color: #C3C3C3;
+        background-color: #f2f2f2;
+        color: #c3c3c3;
 
         &:hover {
-            background-color: #FAF8F8;
-            color: #C3C3C3;
+            background-color: #faf8f8;
+            color: #c3c3c3;
         }
     }
 }
@@ -281,7 +279,7 @@ header {
 // -------- DETAILS ---------
 .section-header-details {
     min-height: 310px;
-    background-color: #E4E6EB;
+    background-color: #e4e6eb;
     margin-top: -70px;
 }
 
@@ -327,7 +325,7 @@ header {
 
         p {
             font-size: 18px;
-            color: #B1B1B1;
+            color: #b1b1b1;
             font-weight: lighter;
         }
 
@@ -350,7 +348,6 @@ header {
             float: left;
             margin-left: 10px;
             overflow: hidden;
-
         }
 
         .features-img {
@@ -370,21 +367,20 @@ header {
                 }
 
                 .xactive {
-                    border: 4px solid #1ABC9C;
+                    border: 4px solid #1abc9c;
                     box-shadow: none;
                 }
             }
         }
 
         .trip-information {
-
             th,
             td {
                 font-weight: lighter;
             }
 
             td {
-                color: #B1B1B1;
+                color: #b1b1b1;
             }
 
             .text-blue {
@@ -446,7 +442,7 @@ header {
         .disclaimer {
             font-weight: 300;
             font-size: 14px;
-            color: #B1B1B1;
+            color: #b1b1b1;
         }
 
         .gj-datepicker {
@@ -466,7 +462,7 @@ header {
             color: #fff;
 
             &:hover {
-                background-color: #1B346E;
+                background-color: #1b346e;
                 color: #fff;
             }
         }
@@ -479,7 +475,7 @@ header {
     }
 
     .btn-cancel {
-        color: #BFBFBF;
+        color: #bfbfbf;
         font-weight: lighter;
     }
 
@@ -525,7 +521,7 @@ header {
         color: #fff;
 
         &:hover {
-            background-color: #1B346E;
+            background-color: #1b346e;
             color: #fff;
         }
     }
